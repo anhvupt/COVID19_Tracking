@@ -1,0 +1,28 @@
+ul{
+    display: block;
+    padding: 0;
+}
+#side-bar{
+    border: lightgray 1px solid;
+    height: 470px;
+}
+p{
+    font-weight: bold;
+}
+ul li{
+    list-style-type: none;
+}
+.total{
+    font-size: 130%;
+    font-weight: bolder;
+}
+.particular{
+    font-size: 110%;
+    font-weight: bold;
+}
+.cases{
+    color: #c31010;
+}
+.recovered{
+    color: #1e7e34;
+}

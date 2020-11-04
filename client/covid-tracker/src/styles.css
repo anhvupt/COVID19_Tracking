@@ -1,0 +1,22 @@
+/* You can add global styles to this file, and also import other style files */
+
+body{
+    max-width: 1500px !important;
+    background-color: grey;
+    padding-top: 0;
+}
+p{
+    margin: 0;
+    padding: 0;
+}
+app-total{
+    width: 15%;
+    float: left;
+    margin-right: 1em;
+}
+app-map{
+    width: 55%;
+    float: left;
+    padding: 10px;
+    border: lightgrey solid 1px;
+}

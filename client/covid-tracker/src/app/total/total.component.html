@@ -1,0 +1,25 @@
+<ul id="side-bar" class="text-center">
+    <ul>
+        <li>
+            <p>Tổng ca nhiễm: </p><span class="total cases">{{data.cases}}</span>
+        </li>
+        <li>
+            <p>Đã phục hồi: </p><span class="total recovered">{{data.recovered}}</span>
+        </li>
+    </ul>
+    <h3>Top 3</h3>
+    <ul>
+        <li>
+            <span class="particular">{{countries[0].country}} </span>
+            <span class="particular cases">{{countries[0].cases}}</span>            
+        </li>
+        <li>
+            <span class="particular">{{countries[1].country}} </span>
+            <span class="particular cases">{{countries[1].cases}}</span>
+        </li>
+        <li>
+            <span class="particular">{{countries[2].country}} </span>
+            <span class="particular cases">{{countries[2].cases}}</span>
+        </li>
+    </ul>
+</ul>
